@@ -9,8 +9,8 @@
 
 import type { StencilReactComponent } from '@stencil/react-output-target/runtime';
 import { createComponent } from '@stencil/react-output-target/runtime';
+import { MyComponent as MyComponentElement, defineCustomElement as defineMyComponent } from "@tesla/design-core/dist/components/my-component.js";
 import React from 'react';
-import { MyComponent as MyComponentElement, defineCustomElement as defineMyComponent } from "tds-core/dist/components/my-component.js";
 
 export type MyComponentEvents = NonNullable<unknown>;
 

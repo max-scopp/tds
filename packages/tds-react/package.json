@@ -1,0 +1,30 @@
+{
+  "name": "@tesla/design-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsup src/index.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "dependencies": {
+    "@tesla/design-core": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@tesla/design-core": "workspace:*",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.5.0"
+  },
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs"
+}

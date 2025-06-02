@@ -1,5 +1,5 @@
 {
-  "name": "tds-core",
+  "name": "@tesla/design-core",
   "version": "1.0.0",
   "author": "",
   "license": "ISC",
@@ -11,25 +11,6 @@
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/tds/tds.esm.js",
-  "exports": {
-    ".": {
-      "import": "./dist/tds/tds.esm.js",
-      "require": "./dist/tds/tds.cjs.js"
-    },
-    "./my-component": {
-      "import": "./dist/components/my-component.js",
-      "types": "./dist/components/my-component.d.ts"
-    },
-    "./loader": {
-      "import": "./loader/index.js",
-      "require": "./loader/index.cjs",
-      "types": "./loader/index.d.ts"
-    }
-  },
-  "files": [
-    "dist/",
-    "loader/"
-  ],
   "scripts": {
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
